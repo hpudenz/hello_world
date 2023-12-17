@@ -1,16 +1,36 @@
-# This is a sample Python script.
+from datetime import datetime
+from random import randint
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Emoji variables to use in your project
+world = print ('🌍🌎🌏')
+python = 'Python 🐍'
+fire = '🔥'
 
+# Emojis to copy and paste into your code:
+# 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
+# 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
+# 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Useful characters :',()*_/.#
 
-e
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# Function definitions
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Put code to run under here
+print('hello, world')
+print('welcome to',python)
+print(python, 'is very good at maths')
+print(230*5782**2/23781)
+print(2*45)
+print('the date and time is', datetime.now())
+
+def roll_dice():
+    max = input('How many sides??:')
+    print('That\'s a D', max)
+    roll = randint(1, int(max))
+    print('You rolled a', roll, fire * roll)
+
+roll_dice()
+
+print('I ❤...')
+print('... makes me 😀')
+print('I\'d like to make silly things with', python)
